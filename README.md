@@ -52,6 +52,8 @@ https://git.fleshless.org/misc/tree/i3lock-extra
 ```bash
     sudo apt-get install nitrogen
     nitrogen
+    sudo apt-get install gnome-tweak-tool
+    nitrogen --restore
 ```
 Note that you'll need to add `exec --no-startup-id nitrogen --restore` to your .i3/config to have your wallpaper settings restored every time you login.
 
