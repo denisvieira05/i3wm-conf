@@ -21,6 +21,14 @@ It's pretty similar to *gnome file version*.
     sudo apt-get install gnome-icon-theme-full
 ```
 
+## Better font rendering
+```bash
+    sudo add-apt-repository ppa:no1wantdthisname/ppa
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install fontconfig-infinality
+```
+
 ## Install Yosemite SanFrancisco Font
 Look on the link on the end of this file to know how to use it, cuz it's a manual task.
 ```bash
@@ -41,7 +49,7 @@ https://git.fleshless.org/misc/tree/i3lock-extra
     sudo apt-get install scrot imagemagick
 ```
 
-## A tutorial
+## Tutorials
 * [i3wm: Jump Start (1/3)](https://www.youtube.com/watch?v=j1I63wGcvU4)
 * [i3wm: Configuration (2/3)](https://www.youtube.com/watch?v=8-S0cWnLBKg)
 * [i3wm: How To "Rice" Your Desktop (3/3)](https://www.youtube.com/watch?v=ARKIwOlazKI)
