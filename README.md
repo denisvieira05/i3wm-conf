@@ -48,6 +48,12 @@ https://git.fleshless.org/misc/tree/i3lock-extra
 ```bash
     sudo apt-get install scrot imagemagick
 ```
+## Change Wallpaper and Using different wallpapers on multiple monitors
+```bash
+    sudo apt-get install nitrogen
+    nitrogen
+```
+Note that you'll need to add `exec --no-startup-id nitrogen --restore` to your .i3/config to have your wallpaper settings restored every time you login.
 
 ## Tutorials
 * [i3wm: Jump Start (1/3)](https://www.youtube.com/watch?v=j1I63wGcvU4)
